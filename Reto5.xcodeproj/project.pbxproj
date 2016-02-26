@@ -12,6 +12,7 @@
 		D06473391C804E24009505AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06473371C804E24009505AB /* Main.storyboard */; };
 		D064733B1C804E24009505AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D064733A1C804E24009505AB /* Assets.xcassets */; };
 		D064733E1C804E24009505AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064733C1C804E24009505AB /* LaunchScreen.storyboard */; };
+		D06473481C804FB0009505AB /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06473471C804FB0009505AB /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D064733A1C804E24009505AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D064733D1C804E24009505AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D064733F1C804E25009505AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06473471C804FB0009505AB /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D06473321C804E24009505AB /* Reto5 */ = {
 			isa = PBXGroup;
 			children = (
+				D06473461C804F4C009505AB /* Playground */,
 				D06473331C804E24009505AB /* AppDelegate.swift */,
 				D06473351C804E24009505AB /* ViewController.swift */,
 				D06473371C804E24009505AB /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				D064733F1C804E25009505AB /* Info.plist */,
 			);
 			path = Reto5;
+			sourceTree = "<group>";
+		};
+		D06473461C804F4C009505AB /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				D06473471C804FB0009505AB /* Datos.swift */,
+			);
+			name = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				D06473361C804E24009505AB /* ViewController.swift in Sources */,
 				D06473341C804E24009505AB /* AppDelegate.swift in Sources */,
+				D06473481C804FB0009505AB /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				D06473441C804E25009505AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
